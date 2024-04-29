@@ -1,0 +1,109 @@
+.viewParent{
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    border: 2px solid black;
+    box-shadow: 8px 4px black;
+   
+}
+
+#db-heading{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.viewDiv{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(233, 248, 249);
+
+}
+
+
+#lists{
+    border: 2px solid black;
+    width:70% ;
+    font-size: large;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 2px;
+    margin: 10px 2px 0px 2px;
+}
+
+.upDel-btn{
+    display: flex;
+    box-shadow: 4px 2px gray;
+    height: 25px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.navigation-btn{
+    display: flex;
+    height: 45px;
+    width: 150px;
+    position: relative;
+    left: 30%;
+    gap: 14px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.navigation-btn > button{
+    width: 45%;
+    height: 100%;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+    box-shadow: 4px 2px gray;
+}
+
+@media screen and (max-width : 730px) {
+
+    #lists{
+        border: 2px solid black;
+        width:70% ;
+        height: 90px;
+        font-size: small;
+        font-weight: 300;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        padding: 2px;
+        margin: 10px 2px 0px 2px;
+    }
+
+    .upDel-btn{
+        box-shadow: 4px 2px gray;
+        height: 25px;
+        width: 45px;
+        font-size: x-small;
+        font-weight: 400;
+    }
+
+    .navigation-btn{
+        display: flex;
+        height: 45px;
+        width: 140px;
+        position: relative;
+        left: 30%;
+        gap: 14px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+
+    .navigation-btn > button{
+        width: 45%;
+        height: 100%;
+        border-radius: 10px;
+        font-size: larger;
+        font-weight: bold;
+        box-shadow: 4px 2px gray;
+    }
+
+   
+}

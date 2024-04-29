@@ -1,0 +1,91 @@
+.main-container{
+    width: 75%;
+    height: 80vh;
+    box-shadow: 8px 4px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.inputDiv{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 15%;
+    gap: 5px;
+}
+
+.input{
+    height: 35px;
+    width: 70%;
+    font-size: large;
+}
+
+#email{
+    width: 68%;
+}
+
+.label{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+
+#submit-btn{
+    margin-top: 10px;
+    width: 24%;
+    height: 10%;
+    font-size: larger;
+    font-weight: bold;
+    box-shadow: 4px 2px black;
+}
+
+@media screen and (max-width : 700px) {
+
+    .main-container{
+        width: 100%;
+        height: 80vh;
+        box-shadow: 8px 4px gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: aquamarine;
+    }
+
+
+    .input{
+        font-size: medium;
+        font-weight: 400;
+    }
+
+    .label{
+        font-size: large;
+        font-weight: 600;
+    }
+
+    #submit-btn{
+        font-size: medium;
+        font-weight: 500;
+    }
+}
